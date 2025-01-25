@@ -1,0 +1,14 @@
+node_modules/
+dist/
+outputs/
+
+logs/
+
+.env
+
+keys/
+
+mongo-data/
+postgres-data/
+mongo-data-test/
+postgres-data-test/
