@@ -28,3 +28,5 @@ npx tsc --init --outDir dist/ --rootDir src
     openssl req -x509 -sha256 -nodes -days 365 -newkey rsa:2048 -keyout server.key -out server.crt
     ```
 
+- **Desplegar aplicacion en raiway.app**
+    [Documentación](https://railway.com/)
