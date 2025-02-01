@@ -1,0 +1,25 @@
+###Get Todos.
+GET http://localhost:3000/api/todos
+
+###Get Todos por id.
+GET http://localhost:3000/api/todos/1
+
+###Create Todo.
+POST http://localhost:3000/api/todos
+Content-Type: application/json
+
+{
+    "text": "Todo 4"
+}
+
+###Update Todo.
+PUT http://localhost:3000/api/todos/4
+Content-Type: application/json
+
+{
+    "text": "Todo 4 Actualizado",
+    "completedAt": "2020-01-01T00:00:00.000Z"
+}
+
+###Delete Todo.
+DELETE http://localhost:3000/api/todos/4
