@@ -12,3 +12,4 @@ mongo-data/
 postgres-data/
 mongo-data-test/
 postgres-data-test/
+/postgres
